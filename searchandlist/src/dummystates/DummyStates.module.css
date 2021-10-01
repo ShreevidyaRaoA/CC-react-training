@@ -1,0 +1,55 @@
+body {font-family: "Lato", sans-serif;
+    background-color: #ddd;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #71a3ad87;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f2f2f2;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: aliceblue;
+  color: black;
+}
+.sidebar a.active {
+    background-color: #dff0ff;
+    color: white;
+    
+  }
+header {
+  
+  color:black;
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+.main{
+    color:black;
+    margin-left: 160px; 
+    padding: 0px 10px;
+}
+
+footer {
+    margin-left: 160px;
+    padding: 0px 10px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
